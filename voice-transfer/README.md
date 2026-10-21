@@ -94,17 +94,11 @@ voice-transfer/
 ├── 📄 handler.js            ← منطق النقل والجلسات
 ├── 📄 commands.js           ← معالج الأوامر النصية
 │
-├── 📁 servers/              ← إعدادات السيرفرات (مجلد لكل سيرفر)
-│   ├── 📁 my-server/
-│   │   └── config.js        ← إعدادات سيرفر my-server
-│   └── 📁 another-server/
-│       └── config.js
-│
-└── 📁 Encrypted/            ← نسخة مشفرة (للتوزيع)
-    ├── index.js
-    ├── handler.js
-    ├── commands.js
-    └── servers/
+└── 📁 servers/              ← إعدادات السيرفرات (مجلد لكل سيرفر)
+    ├── 📁 my-server/
+    │   └── config.js        ← إعدادات سيرفر my-server
+    └── 📁 another-server/
+        └── config.js
 ```
 
 ---
